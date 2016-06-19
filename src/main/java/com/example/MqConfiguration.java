@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-class Configuration {
+class MqConfiguration {
     static final private String RABBITMQ_HOST = "127.0.0.1";
     static final private String RABBITMQ_USERNAME = "guest";
     static final private String RABBITMQ_PASSWORD = "guest";
